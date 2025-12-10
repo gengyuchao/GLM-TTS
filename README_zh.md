@@ -1,10 +1,5 @@
 # GLM-TTS: Controllable & Emotion-Expressive Zero-shot TTS with Multi-Reward Reinforcement Learning
 
-
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-green)](https://www.python.org/downloads/)
-[![Demo](https://img.shields.io/badge/Demo-Online-orange)](https://audio.z.ai)
-
 [Read this in English](README.md)
 
 <div align="center">
@@ -42,6 +37,8 @@ GLM-TTS 是一个基于大型语言模型的高质量文本到语音(TTS)合成�
 ## 🚀 快速开始
 
 ### 环境安装
+
+确保你使用 python3.10 - python 3.12 版本。
 
 ```bash
 # 克隆仓库
@@ -87,7 +84,7 @@ python glmtts_inference.py \
     # --phoneme # 如果想要使用phoneme能力，请加上这个参数
 ```
 
-#### 使用预训练脚本
+#### 使用shell脚本推理
 
 ```bash
 bash glmtts_inference.sh
