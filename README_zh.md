@@ -98,6 +98,14 @@ bash glmtts_inference.sh
 python -m tools.gradio_app
 ```
 
+#### 交互式 流媒体 界面
+
+```bash
+python glm_tts_fastapi.py
+
+浏览器打开 tts_stream_test.html
+```
+
 ## 系统架构
 
 ### 整体架构
